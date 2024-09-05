@@ -1,0 +1,33 @@
+.make-order{
+    position: absolute; /* Абсолютное позиционирование элемента */
+    top: 550px; /* Отступ от верхнего края страницы */
+    right: 1100px; /* Отступ от правого края страницы */
+}
+.make-order button{
+    font-size: 27px;
+    width: 150px;
+    height: 50px;
+    font-weight: lighter;
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+
+
+
+.buy-in-credit {
+    position: absolute;
+    top:550px;
+    right: 930px;
+
+
+}
+
+.buy-in-credit button {
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    font-weight: lighter;
+    background-color: rgb(132, 255, 0);
+    color: #131313;
+
+}

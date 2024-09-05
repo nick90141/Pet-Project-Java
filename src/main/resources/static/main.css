@@ -1,0 +1,141 @@
+.image-container {
+    width: 400px; /* Ширина контейнера изображения */
+    height: auto; /* Автоматическая высота контейнера изображения */
+    margin-left: 70px; /* Отступ слева от контейнера изображения */
+}
+
+.image-container img {
+    width: 100%; /* Ширина изображения в контейнере */
+    height: auto; /* Автоматическая высота изображения в контейнере */
+}
+
+.centered-heading {
+    top: 110px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 30px; /* Размер шрифта заголовка */
+    margin-left: -90px; /* Отрицательный отступ слева */
+}
+
+.centered-heading ul {
+    top: 110px;
+    padding: 0; /* Обнуление внутреннего отступа списка */
+    margin: 0; /* Обнуление внешнего отступа списка */
+}
+
+.centered-heading ul li {
+    display: inline-block; /* Отображение элементов списка в строку */
+    margin-right: 10px; /* Отступ между элементами списка */
+    vertical-align: top; /* Поднять элементы списка вверх */
+    margin-top: -142px; /* Сдвигаем элементы списка вверх на 20px */
+    margin-left: -10px; /* Отодвигаем элементы списка влево на 10px */
+}
+
+.login-registration{
+    position: absolute; /* Абсолютное позиционирование элемента */
+    top: 120px; /* Отступ от верхнего края страницы */
+    right: 0; /* Отступ от правого края страницы */
+    margin-right: 125px; /* Дополнительный отступ справа */
+    font-size: 20px; /* Размер шрифта */
+
+}
+
+.login-registration button {
+    font-size: 17px; /* Размер текста кнопки */
+    width: 150px; /* Ширина кнопки */
+    height: 50px; /* Высота кнопки */
+    font-weight: lighter; /* Насыщенность шрифта */
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+.image-cart {
+    position: absolute; /* Фиксированная позиция, чтобы элемент оставался на месте при прокрутке */
+    top: 110px; /* Отступ от верхнего края страницы */
+    right: 455px; /* Отступ от правого края страницы */
+    width: 77px; /* Ширина контейнера изображения */
+    height: auto; /* Автоматическая высота контейнера изображения */
+}
+
+.image-cart img {
+    width: 100%; /* Ширина изображения в контейнере */
+    height: auto; /* Автоматическая высота изображения в контейнере */
+}
+
+
+.image-bestPropositions img {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%; /* Ширина изображения в контейнере */
+    height: auto; /* Автоматическая высота изображения в контейнере */
+}
+
+.center {
+    /*margin-top: -50px;*/
+
+    font-size: 43px;
+    text-align: center;
+
+}
+
+
+.price-product {
+    font-size: 43px;
+    position: absolute;
+    color: rgb(255, 128, 0);
+    top: 400px;
+    right: 1070px
+}
+
+.available-product {
+    position: absolute;
+    color: rgb(60, 150, 4);
+    top:475px;
+    right: 1052px;
+}
+
+
+
+
+
+
+
+
+.make-order{
+    position: absolute; /* Абсолютное позиционирование элемента */
+    top: 550px; /* Отступ от верхнего края страницы */
+    right: 1100px; /* Отступ от правого края страницы */
+}
+.make-order button{
+    font-size: 27px;
+    width: 150px;
+    height: 50px;
+    font-weight: lighter;
+    background-color: rgb(255, 128, 0);
+    color: white;
+}
+
+.product-information{
+    font-size: 35px;
+    position: absolute;
+    top: 600px;
+    right: 900px;
+}
+.product-main  {
+    position: absolute;
+    top:400px;
+
+}
+.product-main img {
+    width:450px; /* Пример: уменьшить изображение до 50% от исходного размера */
+    height: auto; /* Сохранить пропорции */
+
+}
+.centered-registration {
+    top: 80px;
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 45px; /* Размер шрифта заголовка */
+    margin-left: -90px; /* Отрицательный отступ слева */
+}
+
+

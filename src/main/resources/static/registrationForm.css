@@ -1,0 +1,35 @@
+.registration-form-page {
+    position: absolute;
+    font-size: 40px;
+    text-align: center; /* Центрирование содержимого */
+    width: 100%; /* Чтобы контейнер занимал всю ширину */
+    margin-top: -120px; /* Сдвиг страницы вверх на 20 пикселей */
+
+}
+
+.registration-form-page form {
+    display: inline-block; /* Размещение формы в строку */
+    text-align: left; /* Выравнивание текста в форме */
+}
+
+.registration-form-page input[type="text"],
+.registration-form-page input[type="email"],
+.registration-form-page input[type="password"] {
+    width: 100%; /* Ширина инпутов равна 100% */
+    padding: 5px; /* Отступы вокруг текста в инпутах */
+    margin-bottom: 10px; /* Отступ между инпутами */
+}
+
+.button-registration {
+    text-align: center; /* Центрирование кнопки */
+}
+
+.button-registration button {
+    font-size: 17px; /* Размер текста кнопки */
+    width: 150px; /* Ширина кнопки */
+    height: 50px; /* Высота кнопки */
+    font-weight: lighter; /* Насыщенность шрифта */
+    background-color: rgb(255, 128, 0);
+    color: white;
+
+}

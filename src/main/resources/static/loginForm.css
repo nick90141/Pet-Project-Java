@@ -1,0 +1,17 @@
+.new-registration{
+
+
+}
+.new-registration {
+    text-align: center;
+}
+
+.new-registration button {
+    font-size: 17px; /* Размер текста кнопки */
+    width: 150px; /* Ширина кнопки */
+    height: 50px; /* Высота кнопки */
+    font-weight: lighter; /* Насыщенность шрифта */
+    background-color: rgb(255, 128, 0);
+    color: white;
+
+}

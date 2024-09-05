@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Дані збережано</title>
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/registrationForm.css">
+</head>
+<body>
+
+
+<div class="image-container">
+    <img src="../static/images/logo.jpg">
+</div>
+<div class="image-cart">
+    <img src="../static/images/cart.png">
+</div>
+<div class="centered-heading">
+
+    <ul>
+
+        <li><a href="/PetProject">Головна</a></li>
+        <li><a href="/PetProject/catalog">Каталог</a></li>
+        <li><a href="/PetProject/change">Обмін</a></li>
+        <li><a href="/PetProject/shipping">Доставка</a></li>
+        <li><a href="/PetProject/payment">Оплата</a></li>
+        <li><a href="/PetProject/aboutUs">Про нас</a></li>
+        <li><a href="/PetProject/warranty">Гарантія</a></li>
+        <li><a href="/PetProject/contacts">Контакти</a></li>
+
+    </ul>
+</div>
+
+<div class="login-registration">
+    <button onclick="window.location.href='/PetProject/loginForm'">Увійти</button>
+    <button onclick="window.location.href='/PetProject/registrationForm'">Зареєструватися</button>
+</div>
+
+
+
+
+
+<div class = "registration-form-page">
+
+    <h3 class="registration-title">Увійти</h3>
+
+    <form action="/PetProject/addUser" method="post" th:object="${user}">
+        <div>
+            <label for="name">E-mail:</label>
+            <input type="text" id="name" name="name" th:field="*{name}"/>
+        </div>
+        <div>
+            <label for="surname">Пароль:</label>
+            <input type="text" id="surname" name="surname" th:field="*{surname}"/>
+        </div>
+
+        <div class="button-registration">
+            <button type="submit">Увійти</button>
+        </div>
+    </form>
+
+
+
+</div>
+
+
+</body>
+</html>

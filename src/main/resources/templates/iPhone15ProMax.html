@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apple iPhone 15 Pro 256GB White Titanium</title>
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/productForm.css">
+</head>
+<body>
+<div class="image-container">
+    <img src="../static/images/logo.jpg">
+</div>
+<div class="image-cart">
+    <img src="../static/images/cart.png">
+</div>
+<div class="centered-heading">
+    <ul>
+        <li><a href="/PetProject">Головна</a></li>
+        <li><a href="/PetProject/catalog">Каталог</a></li>
+        <li><a href="/PetProject/change">Обмін</a></li>
+        <li><a href="/PetProject/shipping">Доставка</a></li>
+        <li><a href="/PetProject/payment">Оплата</a></li>
+        <li><a href="/PetProject/aboutUs">Про нас</a></li>
+        <li><a href="/PetProject/warranty">Гарантія</a></li>
+        <li><a href="/PetProject/contacts">Контакти</a></li>
+    </ul>
+</div>
+
+
+<div class="login-registration">
+    <button onclick="window.location.href='/PetProject/loginForm'">Увійти</button>
+    <button onclick="window.location.href='/PetProject/registrationForm'">Зареєструватися</button>
+</div>
+
+<h1 class="center">Apple iPhone 15 Pro 256GB White Titanium</h1>
+<h1 class="price-product">49199 грн</h1>
+<h1 class="available-product">Є в наявності</h1>
+
+<div class="iphone-content-center">
+    <div class="iphone-container">
+        <img class="mySlides" src="https://stylus.ua/thumbs/568x568/27/9f/3057163.jpeg" style="display: block;">
+        <img class="mySlides" src="https://stylus.ua/thumbs/568x568/59/88/3057164.jpeg" style="display: none;">
+        <img class="mySlides" src="https://stylus.ua/thumbs/568x568/f7/2a/3057166.jpeg" style="display: none;">
+    </div>
+    <button class="prev" onclick="plusSlides(-1)">❮</button>
+    <button class="next" onclick="plusSlides(1)">❯</button>
+</div>
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+
+<div class="make-order">
+    <button onclick="window.location.href='/PetProject/loginForm'">Купити</button>
+</div>
+
+<div class="buy-in-credit">
+    <button onclick="window.location.href='/PetProject/applicationCommodityLoan'">Купити в кредит</button>
+</div>
+
+<div class="product-information">
+<ul>
+    <li><strong>Назва:</strong> iPhone 15 Pro</li>
+    <li><strong>Об'єм пам'яті:</strong> 256</li>
+    <li><strong>Колір:</strong> White Titanium</li>
+    <li><strong>Виробник:</strong> Apple</li>
+    <li><strong>Кількість SIM-карт:</strong> 1</li>
+</ul>
+</div>
+</body>
+</html>
